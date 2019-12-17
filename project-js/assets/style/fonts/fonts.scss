@@ -1,0 +1,17 @@
+// @font-face {
+//     font-family: iransans;
+//     src: url(/assets/style/fonts/iranSansRegular.woff);
+//   }
+
+$font-path:'/assets/style/fonts';
+
+  @font-face {
+    font-family: iransans;
+    src: url('#{$font-path}/iranSansRegular.eot');
+    src: url('#{$font-path}/iranSansRegular.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/iranSansRegular.woff') format('woff'),
+         url('#{$font-path}/iranSansRegular.ttf') format('truetype'),
+         url('#{$font-path}/iranSansRegular.svg#proxima_nova_rgitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
